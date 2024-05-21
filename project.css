@@ -1,0 +1,133 @@
+
+
+.content-container{
+    margin: 80px  ;
+}
+
+.project-container{
+    display: flex;
+    flex-direction: row ;
+    margin: 48px 0px;
+}
+.project-container img{
+width: 60%;
+height: auto;
+}
+.project-text-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    justify-content: space-between;
+    min-width: 300px;
+}
+.project-text-container h4{
+    margin-bottom: 20px;
+}
+.project-text-container button{
+    max-width: 300px;
+}
+
+.project-images img {
+width: 100%;
+margin: 48px 0px ;
+}
+
+ /* Tablet */
+@media only screen and (max-width: 991px) {
+
+ .content-container{
+     margin: 100px 80px 80px ;
+}
+   
+.project-container{
+    flex-direction: column;
+    align-items: left; 
+    margin: 16px 0px;
+}
+.project-container img{
+    width: 100%;
+}
+.project-text-container {
+    margin-top: 16px;
+    margin-left: 0px;
+    gap:16px;
+    min-width: 150px;
+}
+.project-images img {
+    margin: 32px 0px ;
+    }
+}
+  /* Mobile */
+@media only screen and (max-width: 576px) {
+
+   .content-container{
+    margin: 100px 16px 16px ;
+}
+   
+   .project-container{
+       flex-direction: column;
+       align-items: left; 
+       margin: 16px 0px;
+   }
+   .project-container img{
+       width: 100%;
+   }
+   .project-text-container {
+       margin-top: 16px;
+       margin-left: 0px;
+       gap:16px;
+       min-width: 150px;
+   }
+
+   .project-images img {
+    margin: 16px 0px ;
+    }
+
+}
+
+
+    /* Projects gallery */
+   .pr-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start
+   }
+
+   .pr-project-container{
+    display: flex;
+    flex-direction: column;
+   }
+   .pr-project-container img{
+   max-width: 620px;
+   height: auto;
+   }
+   .pr-text-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 40px;
+   }
+   
+
+   @media only screen and (max-width: 991px) {
+    .pr-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       }
+    
+    .pr-text-button{
+        margin: 16px;   
+    }
+  
+   }
+
+   .resume-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+   }
+
+
+   
