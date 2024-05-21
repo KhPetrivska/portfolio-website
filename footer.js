@@ -7,8 +7,12 @@ var footer  = `<div id="footer_container">
 <p>kristin.petrivska@gmail.com</p>
 </div>
 <div class="contact_inf">
+<a href="https://github.com/KhPetrivska">
 <img src="assets/images/Github_icon.svg" alt="Github Icon"/>
+</a>
+<a href="https://www.linkedin.com/in/khrystyna-petrivska-764827256/">
 <img src="assets/images/LinkedIn.svg" alt="LinkedIn Icon"/>
+</a>
 </div>
 </div>`;
 
