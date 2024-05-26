@@ -1,6 +1,6 @@
 'use strict';
 
-var contact  = `<div class="inf_block" id="contact_me_block"> 
+var contact  = `<div class="inf_block" id="contact_me"> 
 <div id="contact_me_container">
 <h2 class="subtitle">LET’S CHAT</h2>
 <div id="contact_me_text_button">

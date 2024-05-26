@@ -18,7 +18,7 @@ var navbar  = ` <nav class="header navbar navbar-expand-lg">
                 <a class="nav-link navbar_links" href="/resume.html">Resume</a>
             </li>
           </ul>
-          <a href="#contact_me_block">
+          <a href="#contact_me">
         <button type="button"  id="nav_contact_me" class="primary_button">Contact me</button>
       </a>
       </a>
