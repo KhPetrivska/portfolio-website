@@ -19,7 +19,7 @@ var navbar  = ` <nav class="header navbar navbar-expand-lg">
             </li>
           </ul>
           <a href="#contact_me">
-        <button type="button"  id="nav_contact_me" class="primary_button">Contact me</button>
+        <button type="button"  id="nav_contact_me" class="primary">Contact me</button>
       </a>
       </a>
     </div>
