@@ -7,45 +7,39 @@ body{
     background-color: #2A2829;
 }
 /*--Font Face Declarations--*/
-
 @font-face {
-    font-family: "UnboundedRegular" ;
-    src: url(assets/fonts/Unbounded-Regular.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "UnboundedLight" ;
-    src: url(assets/fonts/Unbounded-Light.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "Panchang" ;
-    src: url(assets/fonts/Panchang-Regular.otf) format("opentype");
+    font-family: "Panchang";
+    src: url(assets/fonts/Panchang-Regular.woff) format("woff");
+    src: url(assets/fonts/Panchang-Regular.woff2) format("woff2");
 }
 
 /*--Fonts--*/
 body{
- font-family:"UnboundedLight";
+ font-family:"Unbounded", Helvetica, sans-serif;
  font-size: 16px;
+ font-weight: 300;
  color:#E1C597;
 }
 
 h1{
-    font-family:"UnboundedRegular";
+    font-family:"Unbounded", Helvetica, sans-serif;
     font-size: 130px;
     line-height: 108%;
+    font-weight: 400;
     color:#E1C597;
 }
 
 h2{
-    font-family:"UnboundedRegular";
+    font-family:"Unbounded", Helvetica, sans-serif;
     font-size: 100px; 
+    font-weight: 400;
     color:#E1C597; 
 }
 
 h3{
-    font-family:"UnboundedRegular";
-    font-size: 24px;  
+    font-family:"Unbounded", Helvetica, sans-serif;
+    font-size: 24px; 
+    font-weight: 400; 
     color:#E1C597;
 }
 
@@ -79,8 +73,9 @@ h4{
 .primary_button{
 background-color: #E1C597;
 padding: 13px 30px;
-font-family:"UnboundedLight";
+font-family:"Unbounded" , sans-serif;
 font-size: 16px;
+font-weight: 300;
 color: #000;
 border: none;
 border-radius: 20px;
@@ -246,8 +241,11 @@ margin-bottom: 160px;
 .photo_and_name{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: center; 
+}
+.photo_and_name img{
+    height: 532px;
+    width: auto;
 }
   #title{
     transform: translateY(50px);
@@ -275,7 +273,11 @@ margin-bottom: 160px;
     .photo_and_name{
     margin-top: 0px;
     }
+    .photo_and_name img{
+        width: 100vh;
+        height: auto;
   }
+}
 
   @media  only screen and (max-width: 407px) {
     #title{
