@@ -3,7 +3,7 @@ var navbar  = ` <nav class="header navbar navbar-expand-lg">
     <a class="navbar-brand" href="/">
         <img src="assets/images/Logo.svg" alt="logo" id="navbar_logo">
     </a>
-      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      <button class="navbar-toggler custom-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon">
             <img src="assets/images/burger.svg" id="burger-icon" />
@@ -29,6 +29,7 @@ var navbar  = ` <nav class="header navbar navbar-expand-lg">
 document.addEventListener('DOMContentLoaded', function () {
   const toggler = document.querySelector('.navbar-toggler');
   const icon = document.getElementById('burger-icon');
+     const contactMeLink = document.getElementById('contactMeLink');
 
   toggler.addEventListener('click', function () {
       if (toggler.classList.contains('collapsed')) {
